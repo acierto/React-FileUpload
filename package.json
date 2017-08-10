@@ -1,6 +1,6 @@
 {
-  "name": "react-fileupload",
-  "version": "2.4.0",
+  "name": "xl-react-fileupload",
+  "version": "1.0.0",
   "description": "Upload files async with xhr2 or iframe for IE. Supporting IE8+. Doing well in Tencent.",
   "main": "dist/main.min.js",
   "scripts": {
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/SoAanyip/React-FileUpload.git"
+    "url": "git@github.com:acierto/React-FileUpload.git"
   },
   "author": "Cheesu@Tencent",
   "license": "MIT",
@@ -41,6 +41,6 @@
     "webpack": "^3.5.2"
   },
   "bugs": {
-    "url": "https://github.com/SoAanyip/React-FileUpload/issues"
+    "url": "https://github.com/acierto/React-FileUpload.git/issues"
   }
 }
