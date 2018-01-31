@@ -15,18 +15,14 @@ import PropTypes from 'prop-types';
 
 const emptyFunction = function () {
 };
-/*当前IE上传组的id*/
 let currentIEID = 0;
-/*存放当前IE上传组的可用情况*/
 const IEFormGroup = [true];
-/*当前xhr的数组（仅有已开始上传之后的xhr）*/
 let xhrList = [];
 let currentXHRID = 0;
 
 class FileUpload extends Component {
     static propTypes = {
         options: PropTypes.shape({
-            /*basics*/
             baseUrl: PropTypes.string.isRequired,
             param: PropTypes.oneOfType([PropTypes.object, PropTypes.func]),
             dataType: PropTypes.string,
