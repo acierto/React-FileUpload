@@ -1,6 +1,6 @@
 {
   "name": "xl-react-fileupload",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "Upload files async with xhr2 or iframe for IE. Supporting IE8+. Doing well in Tencent.",
   "main": "dist/main.min.js",
   "scripts": {
